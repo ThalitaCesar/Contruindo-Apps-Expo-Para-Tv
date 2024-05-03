@@ -180,9 +180,44 @@ O exemplo a seguir eas.json mostra como estender perfis existentes (desenvolvime
   "submit": {}
 }
 
-
 ```
+## Para adicionar às lojas de Smart TVs
 
+Cada plataforma segue diferentes procedimentos para cada plataforma.
+Abaixo eu vou listar algumas configurações, nas lojas mais comuns.
 
+### Para LG WebOS:
 
+1. **Registrar-se como Desenvolvedor:**
+   - Acesse o [site de desenvolvedores da LG](https://webostv.developer.lge.com/) e registre-se como desenvolvedor.
 
+2. ** Preparar o Aplicativo:**
+   - Certifique-se de que seu aplicativo React Native TVOS está pronto para ser enviado como um aplicativo WebOS para TV.
+   - Siga as [diretrizes da LG](https://webostv.developer.lge.com/develop/app-test/)
+
+3. **Subir na LG Content Store:**
+   - Faça o upload do seu aplicativo para o [LG Seller Lounge](https://seller.lgappstv.com/main/main/main.lge)
+   - Pague a taxa de registro, se aplicável.
+
+### Para Samsung Tizen:
+
+1. **Registrar-se como Desenvolvedor:**
+   - Torne-se um desenvolvedor Samsung [no site](https://developer.samsung.com/smarttv)
+
+2. **Configurar o Ambiente de Desenvolvimento:**
+   - [Instale o SDK da Samsung para TV (Tizen Studio) e configure seu ambiente de desenvolvimento](https://developer.samsung.com/smarttv/develop/getting-started/setting-up-sdk/installing-tv-sdk)
+
+3. **Preparar o Aplicativo:**
+   - Certifique-se de seguir [as diretrizes da Samsung](https://developer.samsung.com/smarttv/develop/extension-libraries/tv-extension-api)
+
+4. **Publicar na Samsung Smart TV App Store:**
+   - Faça o upload do seu aplicativo para a [Samsung Seller Office](https://seller.samsungapps.com/)
+   - Pague a taxa de registro, se aplicável.
+
+### Considerações Gerais:
+
+- **Requisitos de Certificação:** Ambas as plataformas (LG WebOS e Samsung Tizen) exigem que seu aplicativo seja certificado antes de ser listado nas lojas de aplicativos. Certifique-se de seguir as diretrizes de certificação específicas para cada plataforma.
+  
+- **Taxas e Termos:** Ambas as plataformas podem ter taxas de registro ou outras taxas associadas à publicação de aplicativos. Certifique-se de revisar e concordar com os termos e condições de desenvolvimento e distribuição.
+
+- **Documentação e Suporte:** Consulte a documentação oficial e fóruns de desenvolvedores para obter orientações detalhadas e suporte adicional durante o processo de publicação.
